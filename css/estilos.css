@@ -256,3 +256,60 @@ h2 {
 .elemento:hover .elemento_eliminar--btn { display: block; }
 .elemento:hover .elemento_valor { transform: translateX(-20px); }
 .elemento:hover .elemento_porcentaje { transform: translateX(-20px); }
+
+
+@media screen and (max-width:700px) {
+    .cabecero {
+        height: 30vh; /* Reduzca la altura del encabezado para pantallas más pequeñas */
+        padding-top: 100px; /* Reduzca el espacio superior */
+        padding-bottom: 50px; /* Reduzca el espacio inferior */
+    }
+    
+    /*.presupuesto_titulo {
+        font-size: 16px; /* Reduzca el tamaño del texto del título */
+    
+    .presupuesto_valor {
+        font-size: 36px; /* Reduzca el tamaño del texto del valor */
+    }
+    
+    .agregar_contenedor {
+        max-width: 90%; /* Haga que el contenedor del formulario sea más ancho en pantallas pequeñas */
+    }
+    
+    .agregar_descripcion {
+        width: 70%; /* Reduzca el ancho del campo de descripción */
+    }
+    
+    .agregar_valor {
+        width: 20%; /* Reduzca el ancho del campo de valor */
+    }
+
+    .contenedor {
+        width: 90%; /* Haga que el contenedor principal sea más ancho en pantallas pequeñas */
+        margin: 40px auto; /* Ajuste los márgenes para centrar el contenedor */
+    }
+    
+    .presupuesto_titulo {
+        font-size: 17px; /* Reducir el tamaño del texto */
+        margin-bottom: 5px; /* Reducir el margen inferior */
+    }
+    
+    .presupuesto_valor {
+        font-size: 36px; /* Reducir el tamaño del texto */
+    }
+
+    .presupuesto_ingreso,
+    .presupuesto_egreso {
+    padding: 5px; /* Reducir el espacio alrededor de los elementos */
+}
+
+.presupuesto_ingreso--valor,
+.presupuesto_egreso--valor,
+.presupuesto_ingreso--texto,
+.presupuesto_egreso--texto,
+.presupuesto_egreso--porcentaje{
+    font-size: 12px; /* Reducir el tamaño del texto */
+    margin-top: 0; /* Eliminar el margen superior */
+}
+
+}
